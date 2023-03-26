@@ -1,8 +1,6 @@
 # Path: Caddyfile
 # caddy config file
-:80 {
+:88 {
     root * /usr/share/caddy
     file_server
-    encode gzip
-    try_files {path} {path}/ /index.html
 }
