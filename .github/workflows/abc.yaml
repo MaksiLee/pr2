@@ -1,4 +1,4 @@
-# cicd job build docker image and push to ghcr.io
+# cicd job build docker image and push to  to ghcr.io
 name: abc
 
 on:
